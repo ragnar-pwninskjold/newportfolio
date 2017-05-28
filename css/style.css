@@ -1,0 +1,527 @@
+body {
+	background-color: #18bc9c;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default {
+	background-color: #2c3e50;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.about {
+	background-color: white;
+	min-height: 800px;
+}
+
+.nav {
+	display: inline-block;
+}
+
+ul.nav {
+	list-style: none;
+	float: right;
+}
+
+li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+li.skill-item {
+	display: block;
+	font-size: 20px;
+}
+
+.nav-section{
+	background-color: #2c3e50;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+.hero {
+	background-color: #18bc9c;
+	min-height: 400px;
+}
+
+.col100 {
+	width: 100%;
+}
+
+.col33 {
+	width: 33%;
+}
+
+.col66 {
+	width: 66%;
+}
+
+.col25 {
+	width: 25%;
+}
+
+.hero h2 {
+	color: white;
+	font-size: 80px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.hero h4 {
+	color: white;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	/*margin-top: 250px;*/
+}
+
+hr.about-separator {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+}
+hr.about-separator:after {
+    content: "ABOUT";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    padding: 0 0.25em;
+    background: white;
+    font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr.project-separator {
+    padding: 0;
+    border: none;
+    border-top: medium double white;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+	background-color: #18bc9c
+}
+hr.project-separator:after {
+    content: "PROJECTS";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    padding: 0 0.25em;
+    background: white;
+    font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #18bc9c;
+	color: white;
+}
+
+hr.contact-separator {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+	margin-bottom: 50px;
+}
+hr.contact-separator:after {
+    content: "CONTACT";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    padding: 0 0.25em;
+    background: white;
+    font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.spacer {
+	height: 35px;
+}
+
+.me-pic {
+	border-radius: 170px;
+	min-width: 200px;
+}
+
+.about-explanation {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.me-pic {
+	border: 1px solid #18bc9c;
+	width: 75%;
+}
+
+.about .col33, .about .col66 {
+	float: left;
+	text-align: center;
+}
+
+.skills-container {
+	clear: both;
+}
+
+.portfolio {
+	min-height: 700px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
+	color: #18bc9c;
+}
+
+.glyphicon-eye-open:before, .glyphicon-wrench:before, .glyphicon-equalizer:before {
+	color: #18bc9c;
+	padding-right: 10px;
+}
+
+.MERN {
+	background: url(../img/060-coin-dollar.svg) no-repeat center;
+	min-height: 193px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: white;
+
+}
+
+.REACT {
+	background: url(../img/194-cloud.svg) no-repeat center;
+	min-height: 193px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	clear: right;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+
+}
+
+.NODE {
+	background: url(../img/156-stats-dots.svg) no-repeat center;
+	min-height: 193px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	clear: left;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: white;
+
+}
+.API {
+	background: url(../img/056-barcode.svg) no-repeat center;
+	min-height: 193px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: white;
+
+}
+
+.project-container {
+	width: 100%;
+	text-align: center;
+}
+
+.contact {
+	background-color: white;
+}
+
+.contact-me, .contact-me-name {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.typed-cursor{
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+
+.desc1, .desc2, .desc3 {
+	color: white;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+/*	margin-left: 330px;
+*/	clear: both;
+	display: block;
+}
+
+.github {
+	background: url(../img/433-github.svg) no-repeat center;
+	min-height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: white;
+}
+
+.linkedin {
+	background: url(../img/458-linkedin.svg) no-repeat center;
+	min-height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: white;
+}
+
+.mail {
+	background: url(../img/388-mail.svg) no-repeat center;
+	min-height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: white;
+}
+
+.copyright {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.col7 {
+	width: 7%;
+}
+
+.contact-icons {
+	text-align: center;
+}
+
+.test1 {
+	background: url(../img/156-stats-dots.svg) no-repeat center;
+	min-height: 193px;
+	font-size: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	clear: left;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: black;
+}
+
+.MERN-MODAL-PIC {
+	background: url(../img/060-coin-dollar.svg) no-repeat center;
+	min-height: 193px;
+	font-size: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	clear: left;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: black;
+}
+
+.REACT-MODAL-PIC {
+	background: url(../img/194-cloud.svg) no-repeat center;
+	min-height: 193px;
+	font-size: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	clear: left;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: black;
+}
+.NODE-MODAL-PIC {
+	background: url(../img/156-stats-dots.svg) no-repeat center;
+	min-height: 193px;
+	font-size: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	clear: left;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: black;
+}
+.API-MODAL-PIC {
+	background: url(../img/056-barcode.svg) no-repeat center;
+	min-height: 193px;
+	font-size: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	clear: left;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: white;*/
+	color: black;
+}
+
+.btn {
+	background-color: #18bc9c;
+	border: none;
+}
+
+.btn:hover {
+	opacity: 0.4;
+	background-color: transparent;
+}
+
+
+.resume {
+    background-color: #18bc9c; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 45px;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+.repo-button {
+	background-color: #18bc9c; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 30px;
+}
+
+.resume-anchor:hover, .repo-button:hover {
+	text-decoration: none;
+}
+
+.modal-pics {
+	max-width: 600px;
+	width: 75%;
+}
+
+.repo-link {
+	color: white;
+}
+
+.repo-button {
+	margin: 30px;
+}
+
+.intro-to-project {
+	margin: 30px;
+	margin-top: 0px;
+}
+
+@media (max-width: 900px) {
+  .col33 {
+  	text-align: center;
+	margin: 40px auto;
+	width: 40%;
+	float: none !important;
+  }
+  .col66 {
+  	margin: 0 auto;
+  	display: block;
+  	float: none !important;
+  }
+
+  .about-explanation {
+  	text-align: center !important;
+  }
+}
+
+@media (max-width: 500px) {
+ 	.MERN-MODAL-PIC, .API-MODAL-PIC, .NODE-MODAL-PIC, .REACT-MODAL-PIC {
+ 		display: block;
+ 		margin: 10px auto;
+ 	}
+
+ 	.project-separator {
+ 		width: 74% !important;
+ 	}
+
+ 	.contact-separator {
+ 		width: 74% !important;
+ 	}
+
+ 	.skill-list {
+ 		padding: 0px;
+ 	}
+
+ 	.glyphicon {
+ 		display: block;
+ 	}
+}
+
+
+
+/* 
+
+AT 900 px, stack the about section
+
+AT 500px, stack the portfolio section
+
+
+*/
