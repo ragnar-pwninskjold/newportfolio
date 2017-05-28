@@ -160,7 +160,7 @@ hr.contact-separator:after {
 }
 
 .me-pic {
-	border-radius: 170px;
+	border-radius: 50%;
 	min-width: 200px;
 }
 
