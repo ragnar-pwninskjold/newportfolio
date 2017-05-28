@@ -493,6 +493,9 @@ hr.contact-separator:after {
   .about-explanation {
   	text-align: center !important;
   }
+  .skills-container {
+  	height: 750px;
+  }
 }
 
 @media (max-width: 500px) {
