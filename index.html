@@ -15,7 +15,7 @@
 <div class="main-container">
 	<!-- NAVIGATION -->
 	<header id="header">
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -31,9 +31,10 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">        
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a class="active" href="#home">HOME</a></li>
+	        
 	        <li><a class="active" href="#about">ABOUT</a></li>
-	        <li><a class="active" href="#mern">PROJECTS</a></li>
+	        <li><a class="active" href="#portfolio">PROJECTS</a></li>
+	        <li><a class="active" href="#contact">CONTACT</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -44,7 +45,7 @@
 	</header>
 
 	<!-- HERO -->
-	<section class="hero">
+	<section id="hero">
 		<div class="col100">
 			<h2 class="animated bounceInDown">Hi, I'm Sean.</h2>
 			<!-- <h4 class="animated bounceInDown below-name">Full-Stack</h4>
@@ -62,7 +63,7 @@
 	</section>
 
 	<!-- ABOUT -->
-	<section class="about">
+	<section id="about">
 	<div class="spacer"></div>
 	<hr class="about-separator animated bounceInLeft"></hr>
 		<div class="col33">
@@ -129,7 +130,7 @@
 	</section>
 
 	<!-- PORTFOLIO -->
-	<section class="portfolio">
+	<section id="portfolio">
 	<div class="spacer"></div>
 	<hr class="project-separator"></hr>
 	<div class="spacer"></div>
@@ -149,8 +150,8 @@
 			<h3 class="skills-used">Skills used:</h3>
 			<h3>MongoDB &#9679; Express/Node &#9679; React/Redux &#9679; Webpack </h3>
 			<div class="repo-buttons">
-				<button class="repo-button"><a class="repo-link" href="https://github.com/ragnar-pwninskjold/financial-fantasy">View repository</a></button>
-				<button class="repo-button"><a target="_blank" href="https://mysterious-harbor-13851.herokuapp.com/" class="repo-link">See Project</a></button>
+				<a class="repo-link" href="https://github.com/ragnar-pwninskjold/financial-fantasy"><button class="repo-button">View repository</button></a>
+				<a target="_blank" href="https://mysterious-harbor-13851.herokuapp.com/" class="repo-link"><button class="repo-button">See Project</button></a>
 			</div>
 		    </div>
 		  </div>
@@ -169,8 +170,8 @@
 		      <h3 class="skills-used">Skills used:</h3>
 		      <h3>React &#9679; Redux &#9679; Webpack</h3>
 		      <div class="repo-buttons">
-				<button class="repo-button"><a class="repo-link" href="https://github.com/ragnar-pwninskjold/redux-weather-app/tree/gh-pages">View repository</a></button>
-				<button class="repo-button"><a target="_blank" href="https://ragnar-pwninskjold.github.io/redux-weather-app" class="repo-link">See Project</a></button>
+				<a class="repo-link" href="https://github.com/ragnar-pwninskjold/redux-weather-app/tree/gh-pages"><button class="repo-button">View repository</button></a>
+				<a target="_blank" href="https://ragnar-pwninskjold.github.io/redux-weather-app" class="repo-link"><button class="repo-button">See Project</button></a>
 			</div>
 		    </div>
 		  </div>
@@ -197,8 +198,8 @@
 		      <h3 class="skills-used">Skills used:</h3>
 		      <h3>Node &#9679; Express &#9679; MongoDB &#9679; Passport &#9679; jQuery</h3>
 		      <div class="repo-buttons">
-				<button class="repo-button"><a class="repo-link" href="https://github.com/ragnar-pwninskjold/node-overflow">View repository</a></button>
-				<button class="repo-button"><a class="repo-link" target="_blank" href="https://morning-plains-25826.herokuapp.com">See Project</a></button>
+				<a class="repo-link" href="https://github.com/ragnar-pwninskjold/node-overflow"><button class="repo-button">View repository</button></a>
+				<a class="repo-link" target="_blank" href="https://morning-plains-25826.herokuapp.com"><button class="repo-button">See Project</button></a>
 			</div>
 		    </div>
 		  </div>
@@ -218,8 +219,8 @@
 		      <h3 class="skills-used">APIs used:</h3>
 		      <h3>Amazon API &#9679; eBay API</h3>
 		      <div class="repo-buttons">
-				<button class="repo-button"><a class="repo-link" href="https://github.com/ragnar-pwninskjold/apicapstone/tree/gh-pages">View repository</a></button>
-				<button class="repo-button"><a class="repo-link" target="_blank" href="https://ragnar-pwninskjold.github.io/apicapstone/">See Project</a></button>
+				<a class="repo-link" href="https://github.com/ragnar-pwninskjold/apicapstone/tree/gh-pages"><button class="repo-button">View repository</button></a>
+				<a class="repo-link" target="_blank" href="https://ragnar-pwninskjold.github.io/apicapstone/"><button class="repo-button">See Project</button></a>
 			</div>
 		    </div>
 		  </div>
@@ -235,7 +236,7 @@
 		
 	</section>
 	<!-- CONTACT -->
-	<section class="contact">
+	<section id="contact">
 	<div class="spacer"></div>
 	<hr class="contact-separator"></hr>
          	<h2 class="contact-me-name">Sean Kochel</h2>
@@ -265,6 +266,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/typed.js"></script>
 <script src="js/cursor.js"></script>
+<script src="js/main.js"></script>
  
 </body>
 </html>
