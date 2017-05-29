@@ -494,7 +494,7 @@ hr.contact-separator:after {
   	text-align: center !important;
   }
   .skills-container {
-  	height: 750px;
+  	min-height: 750px;
   }
 }
 
